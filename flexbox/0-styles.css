@@ -186,14 +186,14 @@
     list-style: none;
   }
   
-  .row::after {
+  .row {
     content: '';
     display: table;
     clear: both;
+    display: flex;
   }
   
   [class*='col-'] {
-    float: left;
     padding: 0.5rem;
   }
   
