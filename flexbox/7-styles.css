@@ -263,7 +263,7 @@
          z-index: 3;
          background: transparent;
          align-items: center;
-  }
+        }
   
   .header-logo {
     position: var(--header-logo-position);
